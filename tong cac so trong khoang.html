@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = parseInt(prompt("nhap so a"))
+        let b = parseInt(prompt("nhap so b"))
+        tong = 0
+        if (a <= b) {
+            for (; a <= b; a++) {
+                tong = tong + a
+            }
+            document.write("tong cac so tu a den b la " + tong)
+        }
+        if (b <= a) {
+            for (; b <= a; b++) {
+                tong = tong + b
+            }
+            document.write("tong cac so tu a den b la " + tong)
+        }
+
+    </script>
+</body>
+
+</html>
